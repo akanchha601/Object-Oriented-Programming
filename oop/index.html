@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="challenge.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Challenge</title>
+</head>
+<body>
+    <script>window.korcode = {oopchal:{}};</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <h1 class="title">OOP Challenge</h1>
+	<div id="controls"></div><br>
+	<!-- created the code tag -->
+    <code id="code" class="korcode-oopchal-body"></code>
+	<script src="Instructions.js"></script>
+    <script src="Input.js"></script>
+    <script src="Output.js"></script>
+    <script src="Body.js"></script>
+	<script>
+'use strict';
+var title = $('<h1>', {class:'korcode-oopchal-title', text:'OOP Challenge'});
+var inst  = new korcode.oopchal.Instructions();
+$('body').append([title,inst]);
+
+</script>
+</body>
+</html>

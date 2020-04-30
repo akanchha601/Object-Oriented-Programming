@@ -1,0 +1,1 @@
+Sample data to test with ajax. This text should end up in the <code> tag.
