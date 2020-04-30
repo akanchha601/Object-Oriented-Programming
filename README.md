@@ -1,5 +1,4 @@
 # Object-Oriented-Programming
-Instructions
 This OOP challenge requires:
 
 3 classes be created: Body; Input; Output. The classes need to go in their corresponding files: Body.js; Input.js; Output.js.
