@@ -8,3 +8,4 @@ The Output class needs to have an 'url' property that when set, will asynchronou
 The Body class needs to pass the value from the input callback to the output's 'url' property
 The code tag text needs to be purple by using a CSS class.
 This challenge is framed in jquery, but jquery usage is not a requirement. This Instructions class can be used as an example on how to create a class. ajax.txt is included to be used with the ajax call. Chrome has issues with AJAXing local files, better to use FireFox.
+![OOPs Challenge_sceenshot](https://user-images.githubusercontent.com/55644004/84403981-4e1a8a00-abd4-11ea-8a0e-ba741215e8f1.PNG)
